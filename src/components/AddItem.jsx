@@ -1,6 +1,12 @@
 import React from 'react'
+import { useContext } from 'react'
+import DataContext from '../Context/Context'
 
-export default function AddItem({titleInput,setTitleInput,addTodo}) {
+
+
+export default function AddItem() {
+const {titleInput,setTitleInput,addTodo} = useContext(DataContext);
+
   return (
     <form className='add_form' onSubmit={(e)=> e.preventDefault()}>
       <label className="label">Add Todo</label>
