@@ -177,10 +177,10 @@ input[type='checkbox']:checked::before {
   border-right: none;
   outline: none;
   color: inherit;
-  /* 636DFF */
 }
 .add_input:where(:hover, :focus-visible) {
   border: 1px solid #636dff;
+  border-right: none;
 }
 
 .add_input::placeholder {
@@ -189,7 +189,7 @@ input[type='checkbox']:checked::before {
 
 .add_btn {
   border-radius: 0 0.25rem 0.25rem 0;
-  border: 1px solid #c9c9cb;
+  border: 1px solid #636dff;
   border-left: none;
   padding: 0 0.7rem;
   font-size: inherit;
@@ -203,7 +203,8 @@ input[type='checkbox']:checked::before {
   color: #ffffff;
   background-color: #737bf5;
   transition: 0.5s;
-  border: 1px solid #636dff;
+  border: 1px solid #737bf5;
+  border-left: none;
 }
 
 .search_form {
